@@ -1,0 +1,331 @@
+body {
+  background-image: url('https://cdn.prod.website-files.com/64edaee359227c9b34a32e84/67ad19a313bff21b2e879cff_AD_4nXfZKUOS-ulGklFau_BL1Xtl8MS6gbBroLrBRnC-c-ID0qhyNmYoaoQfSjqbYwIZo41Shyep1pYQqGlzJrrCcdEldZdq7WDPsrrejPpVC3vLJy3kx8tLworqBKMXZ1FFZUv5sQGY.jpeg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  background: radial-gradient(circle, rgba(148, 63, 251, 1) 0%, rgba(221, 71, 247, 1) 100%, rgba(252, 70, 107, 1) 100%, rgba(255, 0, 0, 1) 100%);
+  color: rgb(83, 3, 97);
+  text-decoration: underline;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 50px;
+  font-size: 100px;
+  margin: 40px;
+  padding: 30px;
+  width: 100%px;
+  height: auto;
+  border-radius: 20px;
+  box-sizing: border-box;
+  border: 20px solid rgb(109, 5, 132);
+
+}
+
+h1:hover {
+  background-color: rgba(226, 149, 247, 0.7);
+  color: antiquewhite;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+h1::before {
+  content: "💼";
+  color: rgb(250, 191, 248);
+  width: 100px;
+  height: 150px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+h1::after {
+  content: "💼";
+  width: 60px;
+  height: 150px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+h1:hover::after {
+  content: " 🚀";
+  color: darkblue;
+  transition: 0.3s;
+}
+
+fieldset {
+  background-color: rgba(175, 146, 201, 0.8);
+  font-size: 30px;
+  border: 10px solid blueviolet;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+
+fieldset:hover {
+  background-color: rgb(199, 9, 237, 0.8);
+  color: rgb(2, 88, 23);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+legend {
+  background-color: rgb(108, 34, 105);
+  text-decoration: underline;
+  text-decoration-color: rgb(230, 157, 240);
+  text-shadow: 20px;
+  color: rgb(228, 210, 224);
+  font-size: 40px;
+  font-weight: bold;
+  box-sizing: border-box;
+  border: 10px solid rgb(241, 184, 248);
+
+}
+
+legend:hover {
+  background-color: rgb(160, 41, 189);
+  color: black;
+  transition: 1s;
+  cursor: pointer;
+}
+
+label {
+  background-color: rgb(123, 90, 155);
+}
+
+select {
+  width: 22%;
+  height: 40px;
+}
+
+input[type="checkbox"] {
+  width: 20%;
+  height: 85px;
+}
+
+input[type="file"] {
+  width: 20%;
+  height: 35px;
+}
+
+input[type="email"] {
+  width: 20%;
+  height: 35px;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+input[type="email"]:hover {
+  background-color: #ef8ff8;
+  border-color: rgb(72, 18, 71);
+  border-radius: 100px;
+  box-shadow: 10px rgba(128, 0, 128, 0.5);
+}
+
+input[type="email"]:focus {
+  outline: none;
+  border-color: purple;
+  background-color: #eba1a1;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+}
+
+input[type="tel"] {
+  width: 20%;
+  height: 35px;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+input[type="tel"]:hover {
+  background-color: #ef8ff8;
+  border-color: rgb(72, 18, 71);
+  border-radius: 100px;
+  box-shadow: 10px rgba(128, 0, 128, 0.5);
+}
+
+input[type="tel"]:focus {
+  outline: none;
+  border-color: purple;
+  background-color: #eba1a1;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+}
+
+input[type="text"] {
+  width: 20%;
+  height: 35px;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:hover {
+  background-color: #ef8ff8;
+  border-color: rgb(72, 18, 71);
+  border-radius: 100px;
+  box-shadow: 10px rgba(128, 0, 128, 0.5);
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: purple;
+  background-color: #eba1a1;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+}
+
+input[type="number"] {
+  width: 20%;
+  height: 35px;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+input[type="number"]:hover {
+  background-color: #ef8ff8;
+  border-color: rgb(72, 18, 71);
+  border-radius: 100px;
+  box-shadow: 10px rgba(128, 0, 128, 0.5);
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: purple;
+  background-color: #eba1a1;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+}
+
+input[type="date"] {
+  width: 20%;
+  height: 35px;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+input[type="date"]:hover {
+  background-color: #ef8ff8;
+  border-color: rgb(72, 18, 71);
+  border-radius: 100px;
+  box-shadow: 10px rgba(128, 0, 128, 0.5);
+}
+
+input[type="date"]:focus {
+  outline: none;
+  border-color: purple;
+  background-color: #eba1a1;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+}
+
+input[type="time"] {
+  width: 20%;
+  height: 35px;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+input[type="time"]:hover {
+  background-color: #ef8ff8;
+  border-color: rgb(72, 18, 71);
+  border-radius: 100px;
+  box-shadow: 10px rgba(128, 0, 128, 0.5);
+}
+
+input[type="time"]:focus {
+  outline: none;
+  border-color: purple;
+  background-color: #eba1a1;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+}
+
+input[type="checkbox"] {
+  width: 20%;
+  height: 35px;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+textarea {
+  width: 60%;
+  height: 120px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdc9fc;
+  resize: vertical;
+  transition: all 0.3s ease;
+}
+
+textarea:hover {
+  background-color: #d2aff7;
+  border-color: blueviolet;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: purple;
+  background-color: #d49cd9;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+}
+
+button {
+  background-color: rgb(240, 96, 240);
+  color: rgb(12, 9, 9);
+  font-size: 30px;
+  border: 10px solid rgb(63, 2, 63);
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(126, 29, 126);
+  color: rgb(240, 201, 240);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+footer {
+  background-color: blueviolet;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  color: white;
+  margin-top: 30px;
+  width: 100%px;
+  height: auto;
+  border-radius: 20px;
+  box-sizing: border-box;
+  border: 20px solid rgba(109, 5, 132, 0.883);
+
+}
+footer:hover {
+  background-color: rgb(199, 9, 237,0.8);
+  color: black;
+  transition: 1s;
+  cursor: pointer;
+}

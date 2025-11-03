@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome to Event Planning</h1>
+    <form>
+        <fieldset>
+            <legend>Event Details</legend>
+            <label for="event-name">Event Name:</label>
+            <input type="text" id="event-name" name="event-name" required><br><br>
+
+            <label for="event-date">Event Date:</label>
+            <input type="date" id="event-date" name="event-date" required><br><br>
+
+            <label for="event-type">Event Type:</label>
+            <select id="event-type" name="event-type">
+                <option value="conference">Conference</option>
+                <option value="wedding">Wedding</option>
+                <option value="birthday">Birthday</option>
+                <option value="other">Other</option>
+            </select><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Organizer Information</legend>
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required
+                placeholder="Enter your name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="org-name">Organization Name (optional):</label>
+            <input type="text" id="org-name" name="org-name" placeholder="Enter organization name"><br><br>
+            <label for="contact-number">Contact Number:</label>
+            <input type="tel" id="contact-number" name="contact-number" required
+                placeholder="Enter contact number">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="email-address">Email Address:</label>
+            <input type="email" id="email-address" name="email-address" required
+                placeholder="Enter email address"><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Guest Details</legend>
+            <label>Expected Number of Guests</label>
+            <input type="number" id="expected-guests" name="expected-guests"
+                required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="vip-guests">VIP Guests (if any):</label>
+            <input type="text" id="vip-guests" name="vip-guests" placeholder="Enter VIP guest names"><br><br>
+            <label for="rsvp-required">RSVP Required:</label>
+            <input type="checkbox" id="rsvp-required" name="rsvp-required"><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Services Required</legend>
+            <label>Catering</label>
+            <input type="text" id="catering type" name="catering"
+                required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Decoration</label>
+            <input type="text" id="decoration" name="decoration"><br><br>
+            <label>Photography</label>
+            <input type="text" id="photography" name="photography">
+            <label>Music</label>
+            <input type="text" id="music" name="music"><br><br>
+            <label>Transportation</label>
+            <input type="text" id="transportation" name="transportation"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Budget Information</legend>
+            <label>Estimated Budget</label>
+            <input type="number" id="number" name="number"><br><br>
+            <label>Payment Method (Cash / Card / Bank Transfer)</label>
+            <input type="text" id="text" name="text" placeholder="your payment method"><br><br>
+            <label>Advance Paid </label>
+            <input type="number" id="number" name="number"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Additional Notes</legend>
+            <label for="additional-notes">Please provide any additional information or special requests:</label><br><br>
+            <textarea id="additional-notes" name="additional-notes" rows="5" cols="50"
+                placeholder="Enter your notes here..."></textarea><br><br>
+
+            <label for="comments">Enter your comments</label><br><br>
+            <textarea id="comments" name="comments" rows="5" cols="50"
+                placeholder="Enter your comments here..."></textarea>
+
+            <br><br>
+        </fieldset>
+    </form>
+    <br><br>
+    <center><button>Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>Reset</button></center>
+    <br><br>
+    <footer>
+        <p>&copy; 2025 Event Planning Company. All rights reserved.|🚀Designed by Ufaq Fatima&nbsp;🚀</p>
+    </footer>
+</body>
+
+</html>
