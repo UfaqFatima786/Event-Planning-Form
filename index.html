@@ -10,7 +10,7 @@
 
 <body>
     <h1>Welcome to Event Planning</h1>
-    <form>
+    <form class="eventplanningform">
         <fieldset>
             <legend>Event Details</legend>
             <label for="event-name">Event Name:</label>
@@ -83,15 +83,22 @@
             <textarea id="additional-notes" name="additional-notes" rows="5" cols="50"
                 placeholder="Enter your notes here..."></textarea><br><br>
 
-            <label for="comments">Enter your comments</label><br><br>
-            <textarea id="comments" name="comments" rows="5" cols="50"
-                placeholder="Enter your comments here..."></textarea>
 
             <br><br>
         </fieldset>
+        <fieldset>
+            <legend>Comments</legend>
+
+            <label for="comments">Enter your comments</label><br><br>
+            <textarea id="comments" name="comments" rows="5" cols="50"
+                placeholder="Enter your comments here..."></textarea>
+        </fieldset>
     </form>
     <br><br>
-    <center><button>Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>Reset</button></center>
+    <div class="btn-box">
+        <button>Submit</button>
+        <button>Reset</button>
+    </div>
     <br><br>
     <footer>
         <p>&copy; 2025 Event Planning Company. All rights reserved.|🚀Designed by Ufaq Fatima&nbsp;🚀</p>
